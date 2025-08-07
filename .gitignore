@@ -1,0 +1,77 @@
+# ===============================
+# BACKEND (Python)
+# ===============================
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+
+# Virtual Environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.Python
+
+# Python tools
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+.hypothesis/
+.mypy_cache/
+.dmypy.json
+.pyre/
+pip-wheel-metadata/
+.cache/
+
+# Celery & Scheduler Logs
+celerybeat-schedule
+celerybeat.pid
+*.pid
+
+# cron job outputs (if redirected to files)
+cron_output.log
+cron_error.log
+
+# Dotenv / Environment Variables
+.env
+.env.*
+
+# Database
+*.sqlite3
+*.db
+
+# ===============================
+# FRONTEND (Vue.js)
+# ===============================
+node_modules/
+dist/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env.local
+.env.*.local
+
+# Testing
+coverage/
+
+# IDE Configs
+.vscode/
+.idea/
+
+# MacOS & system files
+.DS_Store
+Thumbs.db
